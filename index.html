@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <link href="./css/bootstrap.min.css" rel="stylesheet">
   <link href="./css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>Index</title>
 </head>
 
@@ -16,7 +17,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bgBlack ">
       <div class="container">
         <a class="navbar-brand" href="./index.html">KissOf</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
@@ -40,16 +42,17 @@
               <a class="nav-link" href="#">Sale</a>
             </li>
           </ul>
-        
+
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Perfil
               </a>
               <ul class="dropdown-menu dropdown-menu-lg-end bgBlack" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Mis datos</a></li>
-                <li><a class="dropdown-item" href="#">Mi carrito de compras</a></li>
-                <li><a class="dropdown-item" href="#">Mis compras</a></li>
+                <li><a class="dropdown-item" href="#">Mis datos <i class="fas fa-user"></i></a></li>
+                <li><a class="dropdown-item" href="#">Mi carrito de compras <i class="fas fa-shopping-cart"></i></a></li>
+                <li><a class="dropdown-item" href="#">Mis compras <i class="fas fa-shopping-bag"></i></a></li>
               </ul>
             </li>
           </ul>
@@ -57,14 +60,14 @@
       </div>
     </nav>
   </header>
-  <main >
+  <main>
     <section class="container mt-5">
       <div class="row justify-content-center align-items-center">
         <div class="col-12 col-md-6 mb-4 mb-md-0">
           <p class=" fs-1 fw-bold">Descubra nuestra elegante colección</p>
-            <p class="fs-5 fw-light">Eleva tu estilo con nuestra selección cuidadosamente seleccionada de prendas de moda
-              de alta calidad.</p>
-            <button type="button" class="btn btn-dark bgBlack button ">Ver Colección</button>
+          <p class="fs-5 fw-light">Eleva tu estilo con nuestra selección cuidadosamente seleccionada de prendas de moda
+            de alta calidad.</p>
+          <button type="button" class="btn btn-dark bgBlack button ">Ver Colección</button>
         </div>
 
 
@@ -103,7 +106,7 @@
       <div class="row row-cols-2 row-cols-md-4 g-4">
         <div class="col">
           <div class="card h-80">
-            <img src="./assets/img/1.jpg" class="card-img-top" alt="...">
+            <a href="#"><img src="./assets/img/1.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
               <h5 class="card-title">Conjunto Zara</h5>
               <p class="card-text">Varios Colores.</p>
@@ -113,7 +116,7 @@
         </div>
         <div class="col">
           <div class="card h-80">
-            <img src="./assets/img/5.jpg" class="card-img-top" alt="...">
+            <a href="#"><img src="./assets/img/5.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
               <h5 class="card-title">Body Luna</h5>
               <p class="card-text">Varios Colores.</p>
@@ -123,7 +126,7 @@
         </div>
         <div class="col">
           <div class="card h-80">
-            <img src="./assets/img/7.jpg" class="card-img-top" alt="...">
+            <a href="#"><img src="./assets/img/7.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
               <h5 class="card-title">Chaleco Brisa</h5>
               <p class="card-text">Varios Colores.</p>
@@ -133,7 +136,7 @@
         </div>
         <div class="col">
           <div class="card h-80">
-            <img src="./assets/img/11.jpg" class="card-img-top" alt="...">
+            <a href="#"><img src="./assets/img/11.jpg" class="card-img-top" alt="..."></a>
             <div class="card-body">
               <h5 class="card-title">Falda Chloe</h5>
               <p class="card-text">Varios Colores.</p>
@@ -142,88 +145,263 @@
           </div>
         </div>
       </div>
+      <div class="position-relative mt-5">
+        <button type="button" class="btn position-absolute bottom-0 end-0 btn-dark bgBlack button ">Explora más</button>
+      </div>
+
     </section>
 
-    <section class="container mt-5">
+<!--
+    <section class="center">
+      <div class="container ">
+        <div>
+          <p class=" fs-2 fw-bold text-center">Explora los estilos</p>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-4">
+                  <a href="#"><img src="./assets/img/12.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Tops</h5>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <a href="#"><img src="./assets/img/1.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Chalecos</h5>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <a href="#"><img src="./assets/img/39.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Pantalones</h5>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4">
+                  <a href="#"><img src="./assets/img/19.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Sacos</h5>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <a href="#"><img src="./assets/img/17.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Monos</h5>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <a href="#"><img src="./assets/img/23.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Vestidos</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4">
+                  <a href="#"><img src="./assets/img/5.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Bodys</h5>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <a href="#"><img src="./assets/img/25.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Corset</h5>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <a href="#"><img src="./assets/img/41.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Accesorios</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+-->
+    <section class="pt-4 m-1 m-sm-5">
       <div>
         <p class=" fs-2 fw-bold text-center">Explora los estilos</p>
       </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-80">
-            <img src="./assets/img/1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Chalecos</h5>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="cards-wrapper">
+                <div class="card cardC">
+                  <div class="image-wrapper">
+                    <a href="#"><img src="./assets/img/12.jpg" class="card-img-top" alt="..."></a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Tops</h5>
+                  </div>
+                </div>
+                <div class="card cardC">
+                  <div class="image-wrapper">
+                    <a href="#"><img src="./assets/img/1.jpg" class="card-img-top" alt="..."></a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Chalecos</h5>
+                  </div>
+                </div>
+                <div class="card cardC">
+                  <div class="image-wrapper">
+                    <a href="#"><img src="./assets/img/39.jpg" class="card-img-top" alt="..."></a>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Pantalones</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="cards-wrapper">
+                <div class="card cardC">
+                  <div class="image-wrapper">
+                    <a href="#"><img src="./assets/img/19.jpg" class="card-img-top" alt="..."></a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Sacos</h5>
+                  </div>
+                </div>
+                <div class="card cardC">
+                  <div class="image-wrapper">
+                    <a href="#"><img src="./assets/img/17.jpg" class="card-img-top" alt="..."></a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Monos</h5>
+                  </div>
+                </div>
+                <div class="card cardC">
+                  <div class="image-wrapper">
+                    <a href="#"><img src="./assets/img/23.jpg" class="card-img-top" alt="..."></a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Vestidos</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="cards-wrapper">
+                <div class="card cardC">
+                  <div class="image-wrapper">
+                    <a href="#"><img src="./assets/img/5.jpg" class="card-img-top" alt="..."></a>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Bodys</h5>
+                  </div>
+                </div>
+                <div class="card cardC">
+                  <div class="image-wrapper">
+                    <a href="#"><img src="./assets/img/25.jpg" class="card-img-top" alt="..."></a>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Corset</h5>
+                  </div>
+                </div>
+                <div class="card cardC">
+                  <div class="image-wrapper">
+                    <a href="#"><img src="./assets/img/41.jpg" class="card-img-top" alt="..."></a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Accesorios</h5>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="col">
-          <div class="card h-80">
-            <img src="./assets/img/5.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Bodys</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-80">
-            <img src="./assets/img/7.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Faldas</h5>
-            </div>
-          </div>
-        </div>
-        
-      </div>
     </section>
-      
+   
+
+
+
+
+
+
 
 
 
   </main>
 
-  <footer class=" mt-5 p-4 bgBlack">
+  <footer class=" mt-5 p-5 bgBlack">
     <div class="container">
-        <div class="row ">
-            <div class="col-md-3">
-                <h5>Sobre Nosotros</h5>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            </div>
-            <div class="col-md-3">
-                <h5>Enlaces</h5>
-                <ul class="list-unstyled">
-                    <li><a href="#" class=" text-linea">Inicio</a></li>
-                    <li><a href="#" class=" text-linea">Servicios</a></li>
-                    <li><a href="#" class=" text-linea">Contacto</a></li>
-                    <li><a href="#" class=" text-linea">Acerca de</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <h5>Contacto</h5>
-                <p class="text-muted">123 Calle Principal, Ciudad, País</p>
-                <p class="text-muted">Email: info@ejemplo.com</p>
-                <p class="text-muted">Teléfono: (123) 456-7890</p>
-            </div>
-            <div class="col-md-3">
-                <h5>Síguenos</h5>
-                <ul class="list-unstyled">
-                    <li><a href="#" class=" text-linea">Facebook</a></li>
-                    <li><a href="#" class=" text-linea">Twitter</a></li>
-                    <li><a href="#" class=" text-linea">Instagram</a></li>
-                    <li><a href="#" class=" text-linea">LinkedIn</a></li>
-                </ul>
-            </div>
+      <div class="row ">
+        <div class="col-md-3">
+          <h5>Sobre Nosotros</h5>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+          </p>
         </div>
+        <div class="col-md-3">
+          <h5>Enlaces</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class=" text-linea">Inicio</a></li>
+            <li><a href="#" class=" text-linea">Servicios</a></li>
+            <li><a href="#" class=" text-linea">Contacto</a></li>
+            <li><a href="#" class=" text-linea">Acerca de</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Contacto</h5>
+          <p class="text-muted">123 Calle Principal, Ciudad, País</p>
+          <p class="text-muted">Email: info@ejemplo.com</p>
+          <p class="text-muted">Teléfono: (123) 456-7890</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Síguenos</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class=" text-linea">Facebook</a></li>
+            <li><a href="#" class=" text-linea">Twitter</a></li>
+            <li><a href="#" class=" text-linea">Instagram</a></li>
+            <li><a href="#" class=" text-linea">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="bgBlack text-center py-3">
-        <p class="mb-0 text-white">© 2024 KissOf. Todos los derechos reservados.</p>
-        <p>
-            <a href="#" class="text-linea me-2">Política de Privacidad</a>
-            <a href="#" class="text-linea">Términos de Servicio</a>
-        </p>
+      <p class="mb-0 text-white">© 2024 KissOf. Todos los derechos reservados.</p>
+      <p>
+        <a href="#" class="text-linea me-2">Política de Privacidad</a>
+        <a href="#" class="text-linea">Términos de Servicio</a>
+      </p>
     </div>
-</footer>
+  </footer>
   <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+
 </body>
 
 </html>

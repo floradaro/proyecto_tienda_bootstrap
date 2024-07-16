@@ -67,15 +67,21 @@ h5{
     text-underline-offset: 4px; 
 }
 
-@media screen and (max-width: 575px){
+@media screen and (max-width: 576px){
     /*.header{
         margin-left: 10px;
     }*/
     main{
         margin: 20px;
     }
+
+    .card-title {
+        font-size: 0.8rem; /* Ajusta el tamaño del texto según tus necesidades */
+      }
+
     
 }
+
 
 .card-img-top {
     width: 100%;
@@ -86,3 +92,48 @@ h5{
 .card-title{
     color: var(--third-color);
 }
+
+
+
+.center{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto; 
+}
+
+.carousel-control-prev {
+  left: 0px; 
+}
+
+.carousel-control-next {
+  right: 0px;
+}
+
+
+
+.cards-wrapper{
+    display: flex;
+}
+
+.cardC{
+    margin: 0 .5em;
+    width: calc(100%/3);
+}
+
+/*hasta aca todo bien*/
+
+
+
+
+
+
