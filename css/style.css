@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #ffffff;
+    --secondary-color: #a0a8b0;
+    --third-color: #000000;
+    --fourth-color: #f556f8;
+}
+
+h5{
+    color: var(--main-color);
+}
+
+.fw-bold{
+    color: var(--third-color);
+}
+.nav-item{
+    color: var(--secondary-color);
+}
+.btn-dark:hover{
+    background-color: var(--third-color);
+}
+
+/*Nav*/
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:var(--main-color);
+}
+
+
+.bgBlack{
+    background-color: var(--third-color);
+}
+
+.button,
+.dropdown-item{
+    color: var(--secondary-color);
+}
+
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: var(--main-color);
+    background-color: transparent;
+  }
+
+.text-linea,
+.text-muted{
+    text-decoration: none;
+}
+
+.text-linea{
+    color:var(--secondary-color);
+}
+
+.text-linea:hover{
+    color: var(--main-color);
+}
+
+.text-linea:hover,
+.dropdown-item:hover,
+.nav-link:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px; 
+}
+
+@media screen and (max-width: 575px){
+    /*.header{
+        margin-left: 10px;
+    }*/
+    main{
+        margin: 20px;
+    }
+    
+}
+
+.card-img-top {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover; 
+}
+
+.card-title{
+    color: var(--third-color);
+}
