@@ -75,8 +75,8 @@ h5{
         margin: 20px;
     }
 
-    .card-title {
-        font-size: 0.8rem; /* Ajusta el tamaño del texto según tus necesidades */
+    .cardC .card-title{
+        font-size: clamp(0.7rem, 2vw, 1rem);
       }
 
     
