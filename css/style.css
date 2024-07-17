@@ -60,6 +60,7 @@ h5{
     color: var(--main-color);
 }
 
+.dropdown-trans:hover,
 .text-linea:hover,
 .dropdown-item:hover,
 .nav-link:hover{
@@ -89,6 +90,7 @@ h5{
     object-fit: cover; 
 }
 
+.dropdown-trans,
 .card-title{
     color: var(--third-color);
 }
@@ -132,6 +134,14 @@ h5{
 
 /*hasta aca todo bien*/
 
+
+.dropdown-trans:hover{
+    color:var(--secondary-color);
+}
+
+.btn-check:focus + .btn, .btn:focus {
+    box-shadow: 0 0 0 0.25rem transparent;
+  }
 
 
 
