@@ -75,8 +75,8 @@ h5{
         margin: 20px;
     }
 
-    .cardC .card-title{
-        font-size: clamp(0.7rem, 2vw, 1rem);
+    .cardCa .card-title{
+        font-size: clamp(0.rem, 2vw, 1rem);
       }
 
     
