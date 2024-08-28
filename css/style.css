@@ -9,6 +9,7 @@
     --secondary-color: #a0a8b0;
     --third-color: #000000;
     --fourth-color: #f556f8;
+    --fifth-color:#838a92;
 }
 
 h5{
@@ -80,6 +81,9 @@ h5{
         font-size: clamp(0.rem, 2vw, 1rem);
       }
 
+    .button{
+        font-size: small;
+    }
     
 }
 
@@ -132,9 +136,6 @@ h5{
     width: calc(100%/3);
 }
 
-/*hasta aca todo bien*/
-
-
 .dropdown-trans:hover{
     color:var(--secondary-color);
 }
@@ -145,5 +146,26 @@ h5{
 
 
 
+.centered-fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 500px; 
+    background-color: white; 
+}
+
+/*hasta aca todo bien*/
+
+.text-blue {
+    color: var(--fifth-color);
+    font-size: 0.85rem;
+}
+
+.text-blue:hover{
+    color:var(--third-color);
+}
+
+.text-black:hover{
+    color: var(--fifth-color);
+}
 
 
